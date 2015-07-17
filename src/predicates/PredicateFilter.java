@@ -6,6 +6,7 @@ import java.util.Collection;
 import java.util.List;
 
 
+//TODO 1: Use java 8 lambda expresion to filter
 public class PredicateFilter {
 	
 	public static <T> Collection<T> filter(Collection<T> col, Predicate<T> type){
